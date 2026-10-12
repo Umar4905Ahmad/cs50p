@@ -10,7 +10,7 @@ except ValueError:
     sys.exit("Command-line argument is not a number")
 
 try:
-    response = requests.get("https://rest.coincap.io/v3/assets/bitcoin?apiKey=0f3c1d3effc6c4aa8bb3a457e941552efb348197de2a7ba0dca27d7a58658b71")
+    response = requests.get("https://rest.coincap.io/v3/assets/bitcoin?apiKey=")
 except requests.RequestException:
     sys.exit("Request failed")
 
