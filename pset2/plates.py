@@ -42,4 +42,5 @@ def numbers_at_end(s):
                 return False
     return True
 
-main()
+if __name__ == "__main__": main()
+
